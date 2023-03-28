@@ -36,7 +36,7 @@ console.log("Looking for: " + searchKey);
 async function run() {
   try {
     const database = client.db('clmdb');
-    const parts = database.collection('clmdb');
+    const parts = database.collection('cmps415');
 
     // Hardwired Query for a part that has partID '12345'
     // const query = { partID: '12345' };
